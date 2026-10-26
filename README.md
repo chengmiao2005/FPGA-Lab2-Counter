@@ -1,4 +1,8 @@
-# Clocked Counter and LED Toggle
+# FPGA Lab 2.1 — Counter and LED Toggle
+
+**Verilog · Counters · Sequential Logic · Reset**
+
+Former repository name: `FPGA2-1`.
 
 A parameterized counter toggles an LED and demonstrates sequential logic and asynchronous active-low reset. 时钟计数与 LED 翻转实验。
 
@@ -16,7 +20,6 @@ vvp -n build/counter.vvp
 
 The testbench prints the count and LED state. `vvp -n` terminates at the original `$stop` instead of entering an interactive prompt. The testbench is observational and contains no assertions. Board use requires an appropriate count parameter and pin constraints.
 
-
-[Full project portfolio](https://github.com/chengmiao2005/FPGAfinalproject/blob/main/docs/PORTFOLIO.md) · [Original-to-current file map](docs/FILE_MAP.md)
+[FPGA lab index](https://github.com/chengmiao2005/FPGA-Labs) · [Original-to-current file map](docs/FILE_MAP.md)
 
 [Validation record](docs/VALIDATION.md)
